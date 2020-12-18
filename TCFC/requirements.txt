@@ -1,0 +1,16 @@
+torch==1.4.0
+nltk==3.4.5
+tensorflow_gpu==1.14.0
+tokenizers==0.5.2
+tqdm==4.42.0
+fasttext==0.9.1
+numpy==1.16.4
+botocore==1.15.13
+attrdict==2.0.1
+regex==2020.2.20
+requests==2.9.1
+filelock==3.0.12
+scipy==1.4.1
+boto3==1.12.13
+tensorflow==2.4.0
+transformers==4.0.1
