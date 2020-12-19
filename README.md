@@ -10,7 +10,7 @@ The code is tested using python3.5 and pytorch 1.4.0
 
 ## How to use
 
-Please see the `TCFC` and `WDJN` folder for more detailed information about the dataset and code usage.
+Please see the `TCFC` and `WDJN` folder for more detailed information about the dataset and code usage. Our data and the Chinese pre-trained model can be downloaded from [Baidu Netdisk](https://pan.baidu.com/s/1l_jLVcpBnGXpLp7yf3lqiw) with extract code of `nmoc`, or downloaded from [Google Drive](https://drive.google.com/drive/folders/1rwWv7gbWQrxDMCOr5fpqVd0jJQF4NQu0?usp=sharing).
 
 ## Citation
 
