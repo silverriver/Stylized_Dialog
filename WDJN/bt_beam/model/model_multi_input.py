@@ -435,6 +435,11 @@ class MultiInputModel(nn.Module):
                 current_sample_prob *= self.config.annealing
 
             result = prevs.view(batch_size, self.config.beam_size, -1)
+
+            m = beam_lens.max()
+            if result.size()[2] != m:
+                result = result[:, :, : m]
+            
             return result, beam_lens
 
 
