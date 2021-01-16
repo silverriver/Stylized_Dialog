@@ -50,10 +50,15 @@ fields in `config.json` according to your local folder (i.e., `/home/handsomeboy
 
 ## Evaluation
 
-1. Run `run_eval.sh` in `eval` directory. Specify the prediction file path as the `--eval_file_path` argument.
+1. Download model caches and checkpoints from [Baidu Netdisk](https://pan.baidu.com/s/1BTRtUOSi4MEMECv39b8__A) with extract code of `974e`, or from [Google Drive](https://drive.google.com/drive/folders/1CoF_d3enGq00Ejhc3QTll-WNzhsI-kz8). Copy `cache` folder to `eval` directory, and copy `out_cased` folder and `cls` file to `data` directory. 
+
+2. Change the default value of the `--output_dir` argument in `eval/bert_eval_acc.py` to the path of `out_cased` folder (This is the path of checkpoint files for the `BERT` classifier). If you don't want to change this, you can also specify this path in `eval/run_eval.sh` by adding `--output_dir {the path of out_cased folder}`.
+
+3. In `eval/svm_calculate_acc.py`, change the file path in Line 5 to the path of `cls` file (This is the path of the save file for the `SVM` classifier).
+
+4. Run `run_eval.sh` in `eval` directory. Specify the prediction file path as the `--eval_file_path` argument.
 
     ```bash
     bash run_eval.sh
     ```
 
-    Note that you should train the `SVM` and `BERT` classifier first to calculate the `acc`. Please refer to the code in `eval/bert_eval_acc.py` and `eval/svm_eval_acc.py` for more details.

@@ -20,7 +20,7 @@ models = [
 
 vocab_path = 'chinese_gpt_original/dict.txt'
 cgpt_model = 'chinese_gpt_original/Cgpt_model.bin'
-cls_model = '../data/svm_cls/train/linear_model.bin'
+cls_model = '../data/linear_model.bin'
 
 vocab = Vocab(vocab_path)
 
