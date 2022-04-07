@@ -14,7 +14,7 @@ Please see the `TCFC` and `WDJN` folder for more detailed information about the 
 
 ## Citation
 
-Please cite our paper if your find this repo useful :)
+Please cite our paper if you find this repo useful :)
 
 ```
 @inproceedings{zheng2021stylized,
