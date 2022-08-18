@@ -1,6 +1,6 @@
 # Stylized Dialogue Model
 
-Code/data for AAAI'21 paper [Stylized Dialogue Response Generation Using Stylized Unpaired Texts](https://arxiv.org/abs/2009.12719)
+Code/data for AAAI'21 paper [Stylized Dialogue Response Generation Using Stylized Unpaired Texts](https://arxiv.org/abs/2009.12719). You can also find the camera ready version of our paper and appendix in this repo.
 
 We implemented a stylized dialogue model that can capture stylistic text features embedded in stylized unpaired texts. Specifically, an inverse dialogue model is introduced to generate stylized pseudo dialogue pairs, which are further utilized in a joint training process. An effective style routing approach is devised to intensify the stylistic features in the decoder.
 
